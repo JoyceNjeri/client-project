@@ -1,0 +1,4067 @@
+/* @import url(./fonts/Nunito-Regular.ttf); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap'); */
+
+
+
+                                  /* (HOMEPAGE) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* topnav styling */
+
+.nav ul{
+    list-style: none;
+    left: 200px;
+    margin-left: 990px;
+    position: absolute;
+    margin-bottom: -10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.nav h2{
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.nav ul li{
+    position: relative;
+    left: -100px;
+    bottom: 10px;
+    margin: -10px;
+}
+.nav img{
+    width: 30px;
+}
+.topnav .nav img{
+        filter: grayscale(1);
+}
+
+.topnav .nav img:hover{
+        filter: grayscale(0);
+        transition: .3s ease filter;
+}
+.topnav{
+    background: #070506;
+    overflow: hidden;
+    padding-top: -30px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    align-items: center;
+    width: 1103px;
+    margin: auto;
+}
+.divider{
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0px;
+    top: 82px;
+    background-color: #4D4D4D;
+}
+/* end of topnav */
+
+/* styling bottomnav */
+.contain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 28%;
+    padding-bottom: 10px;
+    padding-right: 68%;
+    background-color: #070506;
+}
+.contain img{
+    position: absolute;
+    left: 100px;
+    width: 70px;
+    top: 110px;
+    z-index: 1;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    padding: 0 20px;
+    
+}
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    bottom: 10px;
+    height: 3px;
+    background: #DF5518;
+    transition: width .3s;
+}
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.contain .btn{
+    position: absolute;
+    bottom: 430px;
+    width: 120px;
+    height: 48px;
+    border: none;
+    left: 1050px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.contain:hover {
+    cursor: pointer;
+    color: black;
+}
+
+ /* end styling bottomnav */
+
+/* welcomepage styling */
+.pagewelcome{
+        position: absolute;
+        height: 115vh;
+        width: 100%;
+        background: #070506;
+}
+.welcome {
+    color: #df5518;
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 312px;
+    top: 150px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.owner{
+    color: white;
+    position: absolute;
+    width: 380px;
+    left: 282px;
+    top: 220px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+}
+.caption{
+    position: absolute;
+    width: 266px;
+    height: 32px;
+    left: 312px;
+    top: 430px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+.make-reservation {
+    position: absolute;
+    bottom: 460px;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+    width: 160px;
+    height: 48px;
+    left: 312px;
+    top: 520px;
+}
+.make-reservation:hover{
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+.leftimage {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 720px;
+    top: 200px;
+}
+.elementimage{
+    position: absolute;
+    width: 192px;
+    left: 658px;
+    top: 460px;
+}
+.border-box{
+    width: 192px;
+    height: 400px;
+    margin: 25px auto;
+    border: 8px solid #fff;
+    top: 145px;
+    position: absolute;
+    margin-left: 830px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.1 );
+}
+.smallrestaurant img{
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    left: 950px;
+    top: 330px;
+}
+.leftsideimage img{
+    position: absolute;
+    width: 220px;
+    height: 208px;
+    left: 0px;
+    top: 300px;
+}
+.imagesmall img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1269px;
+    top: 125px;
+}
+    /* end welcomepage styling */
+
+ /* page2  */
+.serving {
+
+    padding-top: 104px;
+    max-width: 35%;
+    float: left;
+    height: 450vh;
+}
+.authentic{
+    color: #DF5518;
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 104px;
+    top: 1040px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;  
+}
+.bringing h1{
+    color: #2E2E2E;
+    position: absolute;
+    left: 104px;
+    width: 608px;
+    height: 176px;
+    top: 1096px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 88px;
+}
+.bringing p{
+    color: #808080;
+    position: absolute;
+    width: 608px;
+    height: 96px;
+    left: 104px;
+    top: 1296px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.africanfood img{
+    position: absolute;
+    width: 520px;
+    height: 550px;
+    left: 100px;
+    top: 1540px;
+}
+.elementpage2 img{
+    position: absolute;
+width: 400px;
+height: 80px;
+left: 830px;
+top: 1000px;
+}
+.experience{
+    
+position: absolute;
+width: 146px;
+height: 32px;
+left: 830px;
+top: 1720px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #DF5518;
+}
+
+.servingyears h1{
+    position: absolute;
+    width: 504px;
+    height: 176px;
+    left: 830px;
+    top: 1780px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 88px;
+    color: #2E2E2E;
+
+}
+
+.servingyears p{
+    position: absolute;
+    width: 504px;
+    height: 128px;
+    left: 830px;
+    top: 1990px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.africandishes img{
+    position: absolute;
+width: 400px;
+height: 500px;
+left: 830px;
+top: 1160px;
+}
+.backgroundpic img {
+    position: absolute;
+    width: 1350px;
+    height: 505px;
+    left: 0px;
+    top: 2190px;
+}
+.elementbackground img{
+    position: absolute;
+    width: 230px;
+    height: 500px;
+    left: 100px;
+    top: 2300px;
+}
+.textmenu h1{
+    position: absolute;
+    width: 608px;
+    height: 88px;
+    left: 104px;
+    top: 3100px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #2E2E2E;
+}
+.see-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #070506;
+    border: 1px solid #070506;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    bottom: -2850px;
+    left: 1160px;
+}
+.see-btn:hover{
+    border: 1px solid #DF5518;
+    background: #DF5518;
+    transition: 0.5s;
+}
+                /* menucolumn1 styling */
+.container{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 3240px;
+    float: left;
+    /* overflow: auto; */
+}
+.menus{
+    margin: 0px;
+    margin-left: 80px;
+    width: 390px;
+    margin-right: 10px;
+}
+.menus img{
+    width: 300px;
+    height: 300px;
+}
+.border-boxing1{
+    width: 290px;
+    height: 270px;
+    margin: 25px auto;
+    border: 8px solid #070506;
+    top: 35px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: -1;
+    background-color: transparent;
+}
+.border-boxing2{
+    width: 290px;
+    height: 270px;
+    margin: 25px auto;
+    border: 8px solid #070506;
+    top: 35px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: -1;
+    background-color: transparent;
+}
+.border-boxing3{
+    width: 290px;
+    height: 270px;
+    margin: 25px auto;
+    border: 8px solid #070506;
+    top: 35px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: -1;
+    background-color: transparent;
+}
+.foods{
+    padding: 55px;
+    margin-left: -100px;
+    text-align: center;
+    color: black;
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+.food-desc{
+    margin-top: -90px;
+    padding: 55px;
+    margin-left: -180px;
+    text-align: center;
+    color: #808080;
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.menus h3{
+    position: absolute;
+    height: 20px;
+    left: 350px;
+    top: 370px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.menus h2{
+    position: absolute;
+    height: 20px;
+    left: 735px;
+    top: 370px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.menus h4{
+    position: absolute;
+    height: 20px;
+    left: 1100px;
+    top: 365px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 25px;
+}         
+/* menucolumn1 end */
+
+/* menucolumn2 */
+.container2{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 3240px;
+    float: left;
+}
+.menu{
+    margin: 500px;
+    margin-left: 80px;
+    width: 390px;
+    margin-right: 10px;
+}
+.menu img{
+    width: 300px;
+    height: 300px;
+}
+.boxing-border{
+    width: 290px;
+    height: 270px;
+    margin: 25px auto;
+    border: 8px solid #070506;
+    top: 530px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: -1;
+    background-color: transparent;
+}
+.boxing-border2{
+    width: 290px;
+    height: 270px;
+    margin: 25px auto;
+    border: 8px solid #070506;
+    top: 530px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: -1;
+    background-color: transparent;
+}
+.boxing-border3{
+    width: 290px;
+    height: 270px;
+    margin: 25px auto;
+    border: 8px solid #070506;
+    top: 530px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: -1;
+    background-color: transparent;
+}
+.food{
+    padding: 55px;
+    margin-left: -100px;
+    text-align: center;
+    color: black;
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+.desc{
+    margin-top: -90px;
+    padding: 55px;
+    margin-left: -180px;
+    text-align: center;
+    color: #808080;
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.menu h4{
+    position: absolute;
+    height: 20px;
+    left: 320px;
+    top: 865px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.menu h2{
+    position: absolute;
+    height: 20px;
+    left: 755px;
+    top: 867px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.menu h5{
+    height: 20px;
+    position: relative;
+    right: -250px;
+    top: -145px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 30px;
+    font-size: 25px;
+    color: black;
+    z-index: 1;
+} 
+/* end menucolumn2 */
+
+/* bgimage */
+.imagebg img{
+    position: absolute;
+    width: 1310px;
+    height: 440px;
+    left: 0px;
+    top: 4350px;
+}
+.imagepattern img{
+    position: absolute;
+    width: 180px;
+    height: 480px;
+    left: 950px;
+    top: 4450px;
+    z-index: 1;
+}
+/* end page2 */
+
+ /* chefspage */
+
+.chefs{
+    width: 100%;
+    height: 1000vh;
+}
+.meet-chefs h1{
+    position: absolute;
+    bottom: -4500px;
+    color: black;
+    left: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+}
+.meet-chefs img {
+    position: absolute;
+
+}
+.btn-see{
+    display: inline-block;
+    text-decoration: none;
+    color: #070506;
+    border: 1px solid #070506;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    bottom: -4895px;
+    left: 1000px;
+
+}
+.btn-see:hover {
+    border: 1px solid #DF5518;
+    background: #DF5518;
+    transition: 0.5s;
+}
+
+.container-chefs{
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 5200px;
+    float: left;
+    
+}
+.box{
+    display: flex;
+    padding-left: 50px;
+    margin: 5px;
+    float: left;
+    width: 390px;
+    
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.names h1{
+    position: absolute;
+    bottom: -5120px;
+    left: 60px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2E2E2E;
+
+}
+.name2 h1{
+    position: absolute;
+    bottom: -5120px;
+    left: 460px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2E2E2E;
+    font-family: 'Nunito';
+
+    
+}
+.name3 h1{
+    position: absolute;
+    bottom: -5120px;
+    left: 860px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2E2E2E;
+    font-family: 'Nunito';
+
+}
+
+.position h1{
+    position: absolute;
+    bottom: -5170px;
+    left: 60px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color:#808080;
+}
+.position2 h1{
+    position: absolute;
+    bottom: -5170px;
+    left: 460px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color:#808080;
+}
+.position3 h1{
+    position: absolute;
+    bottom: -5170px;
+    left: 860px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color:#808080;
+}
+/* end chefspage */
+     
+/* start about */
+
+.about{
+    position: absolute;
+    bottom: -6530px;
+    width: 100vw;
+    height: 200vh;
+    background-color:#070506;
+}
+.aboutpage h3{
+    color: #DF5518;
+    position: absolute;
+    left: 658px;
+    top: 100px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  
+}
+.aboutpage h1{
+    color: #ffffff;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+
+}
+.slider{
+    position: relative;
+    width: 30%;
+    height: 35vw;
+    margin: 400px auto;
+    perspective: 1400px;
+    transform-style: preserve-3d;
+}
+.slider label,
+.slider label img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    justify-content: center;
+    transition: transform 400ms ease;
+}
+
+/* radio button */
+
+input[type=radio]{
+    position: relative;
+    top: 110%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 15px 0 0;
+    opacity: 0.4;
+    transform: translateX(-83px);
+    cursor: pointer;
+}
+input[type=radio]:checked{
+    opacity: 1;
+}
+
+/* slider functionality */
+
+/* normal position */
+#s1:checked ~ #slider1,
+#s2:checked ~ #slider2,
+#s3:checked ~ #slider3{
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0 12px 6px rgba(0,0,0,0.2);
+    transform: translate3d(0%,0,0px);/* for normal */
+}
+/* next image of slider */
+#s1:checked ~ #slider2,
+#s2:checked ~ #slider3,
+#s2:checked ~ #slider1{              
+    transform: translate3d(20%, 0, -100px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+    0 12px 6px rgba(0,0,0,0.2);
+}
+/* next to next image of slider */
+#s1:checked ~ #slider3,
+#s2:checked ~ #slider1, 
+#s1:checked ~ #slider2{ 
+    transform: translate3d(40%, 0, -250px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+    0 12px 6px rgba(0,0,0,0.2);
+}
+/* previous imaage of slider */
+#s1:checked ~ #slider3, 
+#s2:checked ~ #slider1,
+#s3:checked ~ #slider2{
+    transform: translate3d(-20%, 0, -100px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+    0 12px 6px rgba(0,0,0,0.2);
+}
+/* previous to previous image of slider */
+#s1:checked ~ #slider3, 
+#s2:checked ~ #slider1,
+#s3:checked ~ #slider1{
+    transform: translate3d(-40%, 0, -250px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+    0 12px 6px rgba(0,0,0,0.2);
+}
+
+.message-about h3{
+    position: absolute;
+width: 1024px;
+height: 96px;
+margin-left: 370px;
+bottom: 190px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: white;
+}
+
+.read-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    top: -130px;
+    left: 600px;
+}
+.read-btn:hover{
+    border: 1px solid #DF5518;
+    background: red;
+    transition: 0.5s;
+}
+
+/* end about */
+
+ /* reservation */
+.reservation{
+    position: absolute;
+    bottom: -7465px;
+    width: 100vw;
+    height: 150vh;
+    background: #E5E5E5;
+}
+.makereservation h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #2E2E2E;
+    position: absolute;
+    width: 504px;
+    height: 176px;
+    left: 104px;
+    bottom: 580px;
+}
+.makereservation p{
+    position: absolute;
+    width: 504px;
+    height: 128px;
+    left: 104px;
+    top: 410px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 340px;
+    width: 120px;
+    height: 48px;
+    border: none;
+    margin-left: 110px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+.image-reservation img{
+    position: absolute;
+    width: 608px;
+    height: 640px;
+    left: 680px;
+    top: 150px;
+}
+.reservationpattern img{
+    position: absolute;
+width: 180px;
+height: 480px;
+left: 1000px;
+top: 400px;
+}
+ 
+
+/* footer Home */
+.footer{
+    background:  #070506;
+    position: absolute;
+    bottom: -7930px;
+    width: 100vw;
+    height: 464px;    
+}
+
+.col{
+    width: 25%;
+}
+.logo-part h4{
+    font-size: 30px;
+    color: white;
+    bottom: -80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    position: relative;
+    left: 120px;
+}
+.imagelocation img{
+    width: 27px;
+    position: absolute;
+    bottom: 280px;
+    left: 110px;
+    cursor: pointer;
+
+}
+.imagelocation h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 155px;
+    cursor: pointer;
+}
+.image-inbox img{
+    position: absolute;
+    bottom: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-inbox h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 215px;
+    cursor: pointer;
+}
+.image-call img{
+    position: absolute;
+    bottom: 150px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-call h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 285px;
+    cursor: pointer;
+}
+
+.our-menu h2{
+    position: absolute;
+    height: 24px;
+    left: 504px;
+    top: 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.our-menu ul li{
+    margin-left: 504px;
+    position: relative;
+    bottom: -60px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+}
+.our-menu ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* company */
+.our-company h2{
+    position: absolute;
+    height: 24px;
+    left: 720px;
+    top: 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.our-company ul li{
+    margin-left: 720px;
+        position: relative;
+        bottom: 255px;
+        margin-bottom: 15px;
+        text-decoration: none;
+        color: #E6E6E6;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1.1rem;
+        display: block;
+        transition: .4s;
+        cursor: pointer;
+}
+.our-company ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* subscribe */
+.newsletter h2{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.newsletter h3{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 135px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #E6E6E6;
+}
+.newsletter input{
+    position: absolute;
+    bottom: 260px;
+    left: 950px;
+    border-radius: 8px;
+    padding: 13.5px 13.5px 13.5px 16px;
+}
+
+
+.newsletter .btn-subscribe{
+    position: absolute;
+    bottom: 210px;
+    width: 175px;
+    height: 38px;
+    border: none;
+    left: 950px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-subscribe:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+                                          /* (END HOME */
+
+                                          /* MENU PAGE */
+
+/* start topnav styling */
+
+.nav-menu ul{
+    list-style: none;
+    left: 200px;
+    margin-left: 990px;
+    position: absolute;
+    margin-bottom: -10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.nav-menu ul li {
+    position: relative;
+    left: -100px;
+    bottom: 10px;
+    margin: -10px;
+}
+.nav-menu h2{
+    color: white;
+    margin-top: 30px;
+    bottom: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.nav-menu img{
+    width: 30px;
+    position: relative;
+    left: -30px;
+    bottom: -10px;
+    margin: 5px;
+    /* margin: -10px;
+    width: 30px;
+    bottom: 40px; */
+}
+.topnav-menu .nav-menu img{
+        filter: grayscale(1);
+}
+
+.topnav-menu .nav-menu img:hover{
+        filter: grayscale(0);
+        transition: .3s ease filter;
+}
+.topnav-menu{
+    background: #070506;
+    overflow: hidden;
+    padding-top: -30px;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    align-items: center;
+    width: 1103px;
+    margin: auto;
+}
+.divider-menu{
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0px;
+    top: 82px;
+    background-color: #4D4D4D;
+}
+/* end of topnav */
+/* styling bottomnav */
+.contain-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 28%;
+    padding-bottom: 10px;
+    padding-right: 68%;
+    background-color: #070506;
+}
+.contain-menu img{
+    position: absolute;
+    left: 100px;
+    width: 70px;
+    top: 110px;
+    z-index: 1;
+}
+li {
+    display: inline-block;
+    padding-top: 30px;
+}
+li a {
+    text-decoration: none;
+    display: inline-block;
+    bottom: 100px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    padding: 0 20px;
+    
+}
+.cool-link-menu::after {
+    content: '';
+    display: block;
+    width: 0;
+    bottom: 10px;
+    height: 3px;
+    background: #DF5518;
+    transition: width .3s;
+}
+.cool-link-menu:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.btn-menu{
+    z-index: 1;
+    position: absolute;
+    left: 1000px;
+    bottom: 440px;
+    width: 120px;
+    height: 48px;
+    border: none;
+    margin-left: 120px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-menu:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+
+/* end bottomnav */
+
+/* start menu-welcome */
+.menu-welcome{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #070506;
+}
+.linkpage1 img{
+    position: absolute;
+    left: 320px;
+    right: 27.44%;
+    top: 102px;
+}
+.linkpage1 a{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    left: 360px;
+    right: 27.44%;
+    top: 100px;
+    bottom: 13.72%;
+}
+.linkpage2 img{
+    position: absolute;
+    left: 460px;
+    right: 27.44%;
+    top: 102px;
+}
+.linkpage2 a{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    left: 500px;
+    right: 27.44%;
+    top: 100px;
+    bottom: 13.72%;
+}
+.title-menu h1{
+    position: absolute;
+    width: 400px;
+    height: 88px;
+    left: 312px;
+    top: 160px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
+
+}
+.title-menu img{
+    position: absolute;
+    width: 296px;
+    height: 240px;
+    left: 312px;
+    top: 300px;
+}
+.menu-pic img{
+    position: absolute;
+    width: 296px;
+    height: 440px;
+    left: 832px;
+    top: 100px;
+}
+.menu-pattern img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 760px;
+    top: 150px;
+}
+/* end menu-welcome */
+
+.food-price{
+    background-color: white;
+    position: absolute;
+    top: 780px;
+    height: 400vh;
+    width: 98.9vw;
+}
+
+/* underline hover*/
+.underline-hover{
+    position: relative;
+    padding-bottom: 0.25rem;
+    top: 73px;
+    left: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    cursor: pointer;
+}
+.underline-hover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: #DF5518;
+    transition: width .2s ease-out;
+    
+}
+.underline-hover:hover::before {
+    width: 40px;
+}
+.types ul li {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    display: inline-block;
+    line-height: 48px;
+    position: relative;
+    left: 330px;
+    color: #808080;
+    padding: 20px 35px;
+    cursor: pointer;
+}
+.types ul li:hover{
+    color: #3a2e34;
+}
+.types img{
+    position: absolute;
+width: 400px;
+height: 56px;
+left: 900px;
+top: 70px;
+
+}
+.food-type h3{
+    position: absolute;
+    margin-top: 70px;
+    width: 228px;
+    font-size: 22px;
+    left: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.food-type p{
+    position: absolute;
+    left: 40px;
+    margin-top: 70px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.foodprice h3{
+    position: relative;
+    color: black;
+    bottom: 190px;
+    left: 490px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+/* 2nd */
+.food-type1 h3{
+    position: absolute;
+    width: 228px;
+    font-size: 22px;
+    left: 650px;
+    margin-top: -480px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.food-type1 p{
+    position: absolute;
+    left: 650px;
+    margin-top: -480px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.foodprice1 h3{
+    position: absolute;
+    color: black;
+    left: 1100px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: -730px;
+}
+.beefteryaki{
+    position: absolute;
+width: 1350px;
+height: 500px;
+left: 0px;
+top: 600px;
+}
+.beefelement{
+    position: absolute;
+    width: 200px;
+    height: 480px;
+    right: 150px;
+    top: 700px;
+
+}
+
+/* reservation-menu */
+.makereservation-menu h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #2E2E2E;
+    position: absolute;
+    width: 504px;
+    height: 176px;
+    left: 104px;
+    top: 1500px;
+    z-index: 1;
+}
+.makereservation-menu p{
+    color: #808080;;
+    position: absolute;
+    width: 504px;
+    height: 128px;
+    left: 104px;
+    top: 1700px;
+}
+
+.btn-reservation-menu{
+    position: absolute;
+    bottom: 640px;
+    width: 120px;
+    height: 48px;
+    border: none;
+    margin-left: 110px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-reservation-menu:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+.image-reservation-menu img{
+    position: absolute;
+    width: 608px;
+    height: 640px;
+    left: 680px;
+    top: 1400px;
+}
+.reservationpattern-menu img{
+    position: absolute;
+width: 180px;
+height: 480px;
+left: 1000px;
+top: 1700px;
+}   
+
+    /* maping About */
+    .locate iframe{
+        position: absolute;
+        top: 1800px;
+        width: 100vw;
+        height: 130vh;
+        
+    }
+
+    .border-box-restaurant-about{
+        width: 607px;
+        right: 600px;
+        height: 700px;
+        margin: 25px auto;
+        top: 1840px;
+        position: absolute;
+        margin-left: 830px;
+        z-index: 1;
+        background-color: #070506;
+    }
+    .box-texts-about h2{
+        color: white;
+        position: absolute;
+        width: 480px;
+        height: 176px;
+        left: 100px;
+        top: 50px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 88px;
+    }
+    .box-texts-about p{
+        position: absolute;
+    width: 480px;
+    height: 64px;
+    left: 100px;
+    top: 250px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+    }
+    .container-image-about img{
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 100px;
+        top: 340px;
+    }
+    .container-image-about h4{
+        color: white;
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 205px;
+        top: 350px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .call-image-about img{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 115px;
+        top: 355px;
+    }
+    .call-image-about h3{
+        color: white;
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 190px;
+        top: 380px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .container-image2-about img{
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 100px;
+        top: 440px;
+    
+    }
+    .container-image2-about h4{
+        color: white;
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 205px;
+        top: 440px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .email-image-about img{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 120px;
+        top: 460px;
+    }
+    .email-image-about h3{
+        color: white;
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 190px;
+        top: 470px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .container-image3-about img{
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 100px;
+        top: 540px;
+    }
+    .container-image3-about img{
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 100px;
+        top: 540px;
+    }
+    .container-image3-about h4{
+        color: white;
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 205px;
+        top: 550px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .location-image-about img{
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        left: 115px;
+        top: 555px;
+    }
+    .location-image-about h3{
+        color: white;
+        position: absolute;
+        height: 32px;
+        left: 190px;
+        top: 580px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+       /* footermenu */
+       .footer-menu{
+        background:  #070506;
+        position: absolute;
+        bottom: -120px;
+        width: 100vw;
+        height: 464px;    
+    }
+    .col-menu{
+        width: 25%;
+    }
+    .logo-part-menu h4{
+        font-size: 30px;
+        color: white;
+        bottom: -80px;
+        font-family: 'Nunito';
+        font-style: normal;
+        position: relative;
+        left: 120px;
+    }
+    .imagelocation-menu img{
+        width: 27px;
+        position: absolute;
+        bottom: 280px;
+        left: 110px;
+        cursor: pointer;
+    
+    }
+    .imagelocation-menu h3{
+        color: #E6E6E6;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        position: absolute;
+        width: 188px;
+        height: 64px;
+        left: 164px;
+        top: 155px;
+        cursor: pointer;
+    }
+    .image-inbox-menu img{
+        position: absolute;
+        bottom: 220px;
+        left: 115px;
+        cursor: pointer;
+    }
+    .image-inbox-menu h3{
+        color: #E6E6E6;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        position: absolute;
+        width: 188px;
+        height: 64px;
+        left: 164px;
+        top: 215px;
+        cursor: pointer;
+    }
+    .image-call-menu img{
+        position: absolute;
+        bottom: 150px;
+        left: 115px;
+        cursor: pointer;
+    }
+    .image-call-menu h3{
+        color: #E6E6E6;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        position: absolute;
+        width: 188px;
+        height: 64px;
+        left: 164px;
+        top: 285px;
+        cursor: pointer;
+    }
+    
+    .our-menu-menu h2{
+        position: absolute;
+        height: 24px;
+        left: 504px;
+        top: 85px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    
+    .our-menu-menu ul li{
+        margin-left: 504px;
+        position: relative;
+        bottom: -70px;
+        margin-bottom: 25px;
+        text-decoration: none;
+        color: #E6E6E6;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1.1rem;
+        display: block;
+        transition: .4s;
+        cursor: pointer;
+    }
+    .our-menu-menu ul li:hover{
+        color:  #DF5518;
+        transform: translateX(-12px);
+    } 
+    
+    /* company */
+    .our-company-menu h2{
+        position: absolute;
+        height: 24px;
+        left: 720px;
+        top: 85px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .our-company-menu ul li{
+        margin-left: 720px;
+        position: relative;
+        bottom: 255px;
+        margin-bottom: 15px;
+        text-decoration: none;
+        color: #E6E6E6;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1.1rem;
+        display: block;
+        transition: .4s;
+        cursor: pointer;
+       
+    }
+    .our-company-menu ul li:hover{
+        color:  #DF5518;
+        transform: translateX(-12px);
+    } 
+    
+    /* subscribe */
+    .newsletter-menu h2{
+        position: absolute;
+        height: 24px;
+        left: 950px;
+        top: 85px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    
+    .newsletter-menu h3{
+        position: absolute;
+        height: 24px;
+        left: 950px;
+        top: 135px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #E6E6E6;
+    }
+    .newsletter-menu input{
+        position: absolute;
+        bottom: 260px;
+        left: 950px;
+        border-radius: 8px;
+        padding: 13.5px 13.5px 13.5px 16px;
+    }
+    
+    
+    .newsletter-menu .btn-subscribe-menu{
+        position: absolute;
+        bottom: 210px;
+        width: 175px;
+        height: 38px;
+        border: none;
+        left: 950px;
+        color: white;
+        background-color: #df5518;
+        border-radius: 0px;
+        box-shadow: inset 0 0 0 0 #f9e506;
+        transition: ease-out 0.3s;
+        font-size: 14px;
+        outline: none;
+    }
+    .btn-subscribe-menu:hover {
+        box-shadow: inset 300px 0 0 0 #f9e506;
+        cursor: pointer;
+        color: black;
+    }
+
+                                    /* RESERVATIONPAGE */
+.nav-reservation ul{
+    list-style: none;
+    left: 200px;
+    margin-left: 990px;
+    position: absolute;
+    margin-bottom: -10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.nav-reservation h2{
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.nav-reservation img{
+    width: 30px;
+    position: relative;
+    left: -100px;
+    bottom: 10px;
+    margin: -10px;
+}
+.topnav-reservation .nav-reservation img{
+        filter: grayscale(1);
+}
+
+.topnav-reservation .nav-reservation img:hover{
+        filter: grayscale(0);
+        transition: .3s ease filter;
+}
+.topnav-reservation{
+    background: #070506;
+    overflow: hidden;
+    padding-top: -30px;
+}
+.nav-reservation{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    align-items: center;
+    width: 1103px;
+    margin: auto;
+}
+.divider-reservation{
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0px;
+    top: 82px;
+    background-color: #4D4D4D;
+}
+             /* end of topnav */
+
+             /* styling bottomnav */
+.Home-reservation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    background-color: #070506;
+    padding-right: 38%;
+}
+
+.logo-reservation{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Home-reservation ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.Home-reservation ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}  
+
+         /* line hover */
+
+
+        /* btnhover */
+
+.Home-reservation .btn-reservation{
+    position: absolute;
+    bottom: 460px;
+    width: 120px;
+    height: 48px;
+    border: none;
+    margin-left: 1100px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-reservation:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+
+.reservation-welcome{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #070506;
+}
+.linkpage1-reservation img{
+    position: absolute;
+    left: 320px;
+    right: 27.44%;
+    top: 102px;
+}
+.linkpage1-reservation a{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    left: 360px;
+    right: 27.44%;
+    top: 100px;
+    bottom: 13.72%;
+}
+.linkpage2-reservation img{
+    position: absolute;
+    left: 460px;
+    right: 27.44%;
+    top: 102px;
+}
+.linkpage2-reservation a{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    left: 500px;
+    right: 27.44%;
+    top: 100px;
+    bottom: 13.72%;
+}
+.title-reservation h1{
+    position: absolute;
+    width: 400px;
+    height: 88px;
+    left: 312px;
+    top: 160px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
+
+}
+.title-reservation img{
+    position: absolute;
+    width: 296px;
+    height: 240px;
+    left: 312px;
+    top: 300px;
+}
+.pic-reservation img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 832px;
+    top: 100px;
+}
+.pattern-reservation img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 760px;
+    top: 150px;
+}
+.forms{
+    position: absolute;
+    top: 800px;
+    height: 120vh;
+    width: 100%;
+    background: white;
+}
+.input-name{
+    position: relative;
+    top: 100px;
+    left: 230px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-name input{
+    position: absolute;
+    width: 816px;
+    height: 48px;
+    top: 30px;
+    border: 1px solid #CCCCCC;
+    width: 816px;
+}
+.input-email{
+    position: absolute;
+    top: 200px;
+    width: 816px;                             
+    left: 230px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-email input{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    right: 420px;
+    top: 30px;
+}
+.input-phone {
+    position: absolute;
+    top: 200px;
+    width: 816px;                             
+    left: 700px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-phone input{
+    position: absolute;
+    width: 345px;
+    height: 48px;
+    right: 470px;
+    top: 30px;
+}
+.input-date{
+    position: absolute;
+    top: 300px;
+    width: 816px;                             
+    left: 230px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-date select{
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    right: 570px;
+    top: 30px;
+}
+.input-time h3{
+    position: absolute;
+    top: 300px;
+    width: 816px;                             
+    left: 510px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-time select{
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    right: 590px;
+    top: 330px;
+}
+.input-seats{
+    position: absolute;
+    top: 300px;
+    width: 816px;                             
+    left: 800px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-seats select{
+    position: absolute;
+    width: 260px;
+    height: 48px;
+    right: 570px;
+    top: 30px;
+}
+.input-request{
+    position: absolute;
+    top: 420px;
+    width: 816px;                             
+    left: 227px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.input-request input{
+    position: absolute;
+    width: 345px;
+    right: 470px;
+    top: 30px;
+    width: 816px;
+    height: 160px;
+    left: 5px;
+}
+.reserve-btn{
+    position: absolute;
+    bottom: 70px;
+    width: 170px;
+    height: 48px;
+    border: none;
+    margin-left: 600px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.reserve-btn:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+.forms iframe{
+    position: absolute;
+    top: 800px;
+    right: 100px;
+    width: 5000px;
+    height: 900px;
+
+}
+.border-box-restaurant{
+    width: 607px;
+    right: 600px;
+    height: 700px;
+    margin: 25px auto;
+    top: 845px;
+    position: absolute;
+    margin-left: 830px;
+    z-index: 1;
+    background-color: #070506;
+}
+.box-texts h2{
+    color: white;
+    position: absolute;
+    width: 480px;
+    height: 176px;
+    left: 100px;
+    top: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+}
+.box-texts p{
+    position: absolute;
+width: 480px;
+height: 64px;
+left: 100px;
+top: 250px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: white;
+}
+.container-image img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 100px;
+    top: 340px;
+}
+.container-image h4{
+    color: white;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 205px;
+    top: 350px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.call-image img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 115px;
+    top: 355px;
+}
+.call-image h3{
+    color: white;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 190px;
+    top: 380px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container-image2 img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 100px;
+    top: 440px;
+
+}
+.container-image2 h4{
+    color: white;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 205px;
+    top: 440px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.email-image img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 120px;
+    top: 460px;
+}
+.email-image h3{
+    color: white;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 190px;
+    top: 470px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container-image3 img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 100px;
+    top: 540px;
+}
+.container-image3 img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 100px;
+    top: 540px;
+}
+.container-image3 h4{
+    color: white;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 205px;
+    top: 550px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.location-image img{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 115px;
+    top: 555px;
+}
+.location-image h3{
+    color: white;
+    position: absolute;
+    height: 32px;
+    left: 190px;
+    top: 580px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* footer RESERVATION*/
+.footer-reservation{
+    background:  #070506;
+    position: absolute;
+    top: 2500px;
+    width: 100vw;
+    height: 464px;    
+}
+
+.col-reservation{
+    width: 25%;
+}
+.logo-part-reservation h4{
+    font-size: 30px;
+    color: white;
+    bottom: -80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    position: relative;
+    left: 120px;
+}
+.imagelocation-reservation img{
+    width: 27px;
+    position: absolute;
+    bottom: 280px;
+    left: 110px;
+    cursor: pointer;
+
+}
+.imagelocation-reservation h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 155px;
+    cursor: pointer;
+}
+.image-inbox-reservation img{
+    position: absolute;
+    bottom: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-inbox-reservation h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 215px;
+    cursor: pointer;
+}
+.image-call-reservation img{
+    position: absolute;
+    bottom: 150px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-call-reservation h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 285px;
+    cursor: pointer;
+}
+
+.our-menu-reservation h2{
+    position: absolute;
+    height: 24px;
+    left: 504px;
+    top: 95px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.our-menu-reservation ul li{
+    margin-left: 504px;
+    position: relative;
+    top: 95px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+}
+.our-menu-reservation ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* company */
+.our-company-reservation h2{
+    position: absolute;
+    height: 24px;
+    left: 720px;
+    top: 100px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.our-company-reservation ul li{
+    margin-left: 720px;
+    position: relative;
+    bottom: 230px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+}
+.our-company-reservation ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* subscribe */
+.newsletter-reservation h2{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 95px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.newsletter-reservation h3{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 135px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #E6E6E6;
+}
+.newsletter-reservation input{
+    position: absolute;
+    bottom: 260px;
+    left: 950px;
+    border-radius: 8px;
+    padding: 13.5px 13.5px 13.5px 16px;
+}
+
+
+.newsletter-reservation .btn-subscribe-reservation{
+    position: absolute;
+    bottom: 210px;
+    width: 175px;
+    height: 38px;
+    border: none;
+    left: 950px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-subscribe-reservation:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+
+/* CHEF */
+
+.nav-chef ul{
+    list-style: none;
+    left: 200px;
+    margin-left: 990px;
+    position: absolute;
+    margin-bottom: -10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.nav-chef h2{
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.nav-chef img{
+    width: 30px;
+    position: relative;
+    left: -100px;
+    bottom: 10px;
+    margin: -10px;
+}
+ 
+.topnav-chef .nav-chef img{
+    filter: grayscale(1);
+}
+
+.topnav-chef .nav-chef img:hover{
+    filter: grayscale(0);
+    transition: .3s ease filter;
+}
+.topnav-chef{
+background: #070506;
+overflow: hidden;
+padding-top: -30px;
+}
+.nav-chef{
+display: grid;
+grid-template-columns: 4fr 4fr;
+align-items: center;
+width: 1103px;
+margin: auto;
+}
+.divider-chef{
+width: 100%;
+position: absolute;
+height: 2px;
+left: 0px;
+top: 82px;
+background-color: #4D4D4D;
+}
+         /* end of topnav */
+
+         /* styling bottomnav */
+.Home-chef{
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding-top: 45px;
+padding-left: 8%;
+background-color: #070506;
+padding-right: 38%;
+}
+
+.logo-chef{
+color: white;
+font-size: 35px;
+letter-spacing: 1px;
+cursor: pointer;
+}
+
+.Home-chef ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 15px;
+}
+.Home-chef ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+}  
+
+     /* line hover */
+
+
+    /* btnhover */
+
+.Home-chef .btn-chef{
+position: absolute;
+bottom: 460px;
+width: 120px;
+height: 48px;
+border: none;
+left: 1180px;
+/* margin-left: 1100px; */
+color: white;
+background-color: #df5518;
+border-radius: 0px;
+box-shadow: inset 0 0 0 0 #f9e506;
+transition: ease-out 0.3s;
+font-size: 14px;
+outline: none;
+}
+.btn-chef:hover {
+box-shadow: inset 300px 0 0 0 #f9e506;
+cursor: pointer;
+color: black;
+}
+
+.chef-welcome{
+position: absolute;
+height: 100vh;
+width: 100%;
+background: #070506;
+}
+.linkpage1-chef img{
+position: absolute;
+left: 320px;
+right: 27.44%;
+top: 102px;
+}
+.linkpage1-chef a{
+color: white;
+position: absolute;
+text-decoration: none;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+left: 360px;
+right: 27.44%;
+top: 100px;
+bottom: 13.72%;
+}
+.linkpage2-chef img{
+position: absolute;
+left: 460px;
+right: 27.44%;
+top: 102px;
+}
+.linkpage2-chef a{
+color: white;
+position: absolute;
+text-decoration: none;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+left: 500px;
+right: 27.44%;
+top: 100px;
+bottom: 13.72%;
+}
+.title-chef h1{
+position: absolute;
+width: 400px;
+height: 88px;
+left: 312px;
+top: 160px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+
+}
+.title-chef img{
+position: absolute;
+width: 296px;
+height: 240px;
+left: 312px;
+top: 350px;
+}
+.pic-chef img{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 832px;
+top: 100px;
+}
+.pattern-chef img{
+position: absolute;
+width: 120px;
+height: 120px;
+left: 760px;
+top: 150px;
+}
+
+/* team chefs */
+.teamchef{
+    position: absolute;
+    top: 800px;
+    height: 300vh;
+    width: 100%;
+    background: white;
+}
+.to-me h1{
+    position: absolute;
+    height: 264px;
+    left: 104px;
+    top: 250px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #2E2E2E;
+}
+.to-me p{
+    position: absolute;
+    width: 608px;
+    height: 96px;
+    left: 104px;
+    top: 550px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.to-me h3{
+    position: absolute;
+    width: 608px;
+    height: 32px;
+    left: 104px;
+    top: 700px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2E2E2E;
+}
+.to-me h5{
+    position: absolute;
+    width: 608px;
+    height: 32px;
+    left: 104px;
+    top: 730px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.element-team img{
+    position: absolute;
+    width: 480px;
+    height: 80px;
+    left: 800px;
+    top: 100px;
+
+}
+.chefteam img{
+    position: absolute;
+    width: 480px;
+    height: 500px;
+    left: 800px;
+    top: 250px;
+}
+
+/* grid */
+.container-chef{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+}
+.container-chef .card{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 15px;
+}
+.container-chef .card .contentBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container-chef .card .imgBx img{
+    position: absolute;
+    top: 1000px;
+    left: 120px;
+    width: 100%;
+    height: 100%;
+}
+.content h3{
+    position: absolute;
+    top: 1330px;
+    left: 120px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+.content p{
+    position: absolute;
+    top: 1360px;
+    left: 120px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.container-chef .card .imgBx1 img{
+    position: absolute;
+    top: 1100px;
+    left: 120px;
+    width: 100%;
+    height: 100%;
+}
+.content1 h3{
+    position: absolute;
+    top: 1430px;
+    left: 120px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+   
+}
+.content1 p{
+    position: absolute;
+    top: 1460px;
+    left: 120px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+/* FOOTER CHEF */
+
+.footer-chef{
+    background:  #070506;
+    position: absolute;
+    top: 2700px;
+    width: 98.8vw;
+    height: 464px;    
+}
+
+.col-chef{
+    width: 25%;
+}
+.logo-part-chef h4{
+    font-size: 30px;
+    color: white;
+    bottom: -80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    position: relative;
+    left: 120px;
+}
+.imagelocation-chef img{
+    width: 27px;
+    position: absolute;
+    bottom: 280px;
+    left: 110px;
+    cursor: pointer;
+
+}
+.imagelocation-chef h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 155px;
+    cursor: pointer;
+}
+.image-inbox-chef img{
+    position: absolute;
+    bottom: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-inbox-chef h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 215px;
+    cursor: pointer;
+}
+.image-call-chef img{
+    position: absolute;
+    bottom: 150px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-call-chef h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 285px;
+    cursor: pointer;
+}
+
+.our-menu-chef h2{
+    position: absolute;
+    height: 24px;
+    left: 504px;
+    top: 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.our-menu-chef ul li{
+    margin-left: 504px;
+    position: relative;
+    bottom: -65px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+}
+.our-menu-chef ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* company */
+.our-company-chef h2{
+    position: absolute;
+    height: 24px;
+    left: 720px;
+    top: 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.our-company-chef ul li{
+    margin-left: 720px;
+    position: relative;
+    bottom: 255px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+    
+}
+.our-company-chef ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* subscribe */
+.newsletter-chef h2{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.newsletter-chef h3{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 135px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #E6E6E6;
+}
+.newsletter-chef input{
+    position: absolute;
+    bottom: 260px;
+    left: 950px;
+    border-radius: 8px;
+    padding: 13.5px 13.5px 13.5px 16px;
+}
+
+
+.newsletter-chef .btn-subscribe-chef{
+    position: absolute;
+    bottom: 210px;
+    width: 175px;
+    height: 38px;
+    border: none;
+    left: 950px;
+    /* margin-left: 1100px; */
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-subscribe-chef:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+
+
+/* ABOUT PAGE */
+
+.nav-about ul{
+    list-style: none;
+    left: 200px;
+    margin-left: 990px;
+    position: absolute;
+    margin-bottom: -10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.nav-about h2{
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.nav-about img{
+    width: 30px;
+    position: relative;
+    left: -100px;
+    bottom: 20px;
+    margin: -10px;
+  
+}
+ 
+.topnav-about .nav-about img{
+    filter: grayscale(1);
+}
+
+.topnav-about .nav-about img:hover{
+    filter: grayscale(0);
+    transition: .3s ease filter;
+}
+.topnav-about{
+background: #070506;
+overflow: hidden;
+padding-top: -30px;
+}
+.nav-about{
+display: grid;
+grid-template-columns: 4fr 4fr;
+align-items: center;
+width: 1103px;
+margin: auto;
+}
+.divider-about{
+width: 100%;
+position: absolute;
+height: 2px;
+left: 0px;
+top: 82px;
+background-color: #4D4D4D;
+}
+         /* end of topnav */
+
+         /* styling bottomnav */
+         .contain-about {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 28%;
+            padding-bottom: 10px;
+            padding-right: 68%;
+            background-color: #070506;
+        }
+        .contain-about img{
+            position: absolute;
+            left: 100px;
+            width: 70px;
+            top: 110px;
+            z-index: 1;
+        }
+        li {
+            display: inline-block;
+            padding-top: 30px;
+        }
+        li a {
+            text-decoration: none;
+            display: inline-block;
+            bottom: 100px;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-size: 18px;
+            padding: 0 20px;
+            
+        }
+        .cool-link-about::after {
+            content: '';
+            display: block;
+            width: 0;
+            bottom: 10px;
+            height: 3px;
+            background: #DF5518;
+            transition: width .3s;
+        }
+        .cool-link-about:hover::after{
+            width: 100%;
+            transition: width .3s;
+        }
+        .contain-about .btn-about-reserve{
+            position: absolute;
+            bottom: 430px;
+            width: 120px;
+            height: 48px;
+            border: none;
+            left: 1170px;
+            color: white;
+            background-color: #df5518;
+            border-radius: 0px;
+            box-shadow: inset 0 0 0 0 #f9e506;
+            transition: ease-out 0.3s;
+            font-size: 14px;
+            outline: none;
+        }
+        .btn-about-reserve:hover {
+            cursor: pointer;
+            color: black;
+        }
+        /* .btn-about{
+            position: absolute;
+            bottom: 460px;
+            width: 120px;
+            height: 48px;
+            border: none;
+            left: 1100px;
+            color: white;
+            background-color: #df5518;
+            border-radius: 0px;
+            box-shadow: inset 0 0 0 0 #f9e506;
+            transition: ease-out 0.3s;
+            font-size: 14px;
+            outline: none;
+        }
+        .btn-about:hover {
+            cursor: pointer;
+            color: black;
+        } */
+    
+        /* end bottomnav */
+
+
+/* welcome about */
+.welcome-about{
+position: absolute;
+height: 100vh;
+width: 100%;
+background: #070506;
+}
+.linkpage1-about img{
+position: absolute;
+left: 320px;
+right: 27.44%;
+top: 102px;
+}
+.linkpage1-about a{
+color: white;
+position: absolute;
+text-decoration: none;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+left: 360px;
+right: 27.44%;
+top: 100px;
+bottom: 13.72%;
+}
+.linkpage2-about img{
+position: absolute;
+left: 460px;
+right: 27.44%;
+top: 102px;
+}
+.linkpage2-about a{
+color: white;
+position: absolute;
+text-decoration: none;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+left: 500px;
+right: 27.44%;
+top: 100px;
+bottom: 13.72%;
+}
+.title-about h1{
+position: absolute;
+width: 400px;
+height: 88px;
+left: 312px;
+top: 160px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+
+}
+.title-about img{
+position: absolute;
+width: 296px;
+height: 240px;
+left: 312px;
+top: 350px;
+}
+.pic-about img{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 832px;
+top: 100px;
+}
+.pattern-about img{
+position: absolute;
+width: 120px;
+height: 120px;
+left: 760px;
+top: 150px;
+}
+/*  SERVING ABOUT*/
+.serving-about {
+
+    padding-top: 104px;
+    max-width: 35%;
+    float: left;
+    height: 450vh;
+}
+.authentic-about{
+    color: #DF5518;
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 104px;
+    top: 1040px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;  
+}
+.bringing-about h1{
+    color: #2E2E2E;
+    position: absolute;
+    left: 104px;
+    width: 608px;
+    height: 176px;
+    top: 1096px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 88px;
+}
+.bringing-about p{
+    color: #808080;
+    position: absolute;
+    width: 608px;
+    height: 96px;
+    left: 104px;
+    top: 1296px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.africanfood-about img{
+    position: absolute;
+    width: 608px;
+    height: 368px;
+    left: 100px;
+    top: 1600px;
+   
+}
+.elementpage2-about img{
+    position: absolute;
+width: 400px;
+height: 80px;
+left: 830px;
+top: 1000px;
+}
+.africandishes-about img{
+    position: absolute;
+    width: 440px;
+    height: 450px;
+    left: 800px;
+    top: 1184px;
+}
+
+/* journey */
+.journey{
+    background:  white;
+    position: absolute;
+    top: 2080px;
+    width: 98.8vw;
+    height: 300vh;   
+}
+.our-journey h1{
+    position: absolute;
+width: 608px;
+height: 100vh;
+left: 104px;
+top: 100px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 88px;
+color: #2E2E2E;
+}
+.our-journey p{
+    
+position: absolute;
+width: 608px;
+height: 96px;
+left: 104px;
+top: 200px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+}
+.journey-year1 h2{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+position: absolute;
+top: 350px;
+left: 100px;
+color: #808080;
+cursor: pointer;
+}
+.journey-year1 h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pxpx;
+    color: black;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    color: #808080;
+}
+.journey-year2 h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    cursor: pointer;
+}
+.journey-year2 h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pxpx;
+    color: black;
+    position: absolute;
+    top: 390px;
+    left: 400px;
+    color: #808080;
+}
+.journey-year3 h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    color: #808080;
+    cursor: pointer;
+}
+.journey-year3 h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pxpx;
+    color: black;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    color: #808080;
+    cursor: pointer;
+}
+.journey-year4 h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    position: absolute;
+    top: 350px;
+    left: 1030px;
+    color: #808080;
+    cursor: pointer;
+}
+.journey-year4 h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pxpx;
+    position: absolute;
+    top: 400px;
+    left: 1030px;
+    color: #808080;
+    cursor: pointer;
+}
+
+/* hoverline */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line-hover{
+    position: relative;
+    padding-bottom: 0.25rem;
+    left: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    cursor: pointer;
+   
+}
+.line-hover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 0;
+    height: 4px;
+    background-color: #DF5518;
+    transition: width .2s ease-out;
+    
+}
+.line-hover:hover::before {
+    width: 40px;
+}
+.bg-image-journey img{
+    position: absolute;
+width: 1232px;
+height: 480px;
+left: 80px;
+top: 500px;
+}
+.lorem-left h5{
+    position: absolute;
+    width: 608px;
+    height: 96px;
+    left: 80px;
+    top: 1030px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+.lorem-right h5{
+    position: absolute;
+    width: 608px;
+    height: 96px;
+    left: 700px;
+    top: 1030px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+.element img{
+    position: absolute;
+width: 400px;
+height: 48px;
+left: 500px;
+top: 1300px;
+}
+.element h3{
+    position: absolute;
+width: 816px;
+height: 128px;
+left: 312px;
+top: 1400px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 22px;
+color: #2E2E2E;
+}
+.element h2{
+    position: absolute;
+width: 816px;
+height: 32px;
+left: 612px;
+top: 1550px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #2E2E2E
+}
+.avatar-box1 img{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 540px;
+top: 1650px;
+cursor: pointer;
+}
+
+.avatar-box2 img{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 630px;
+top: 1650px;
+cursor: pointer;
+}
+.avatar-box3 img{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 720px;
+top: 1650px;
+cursor: pointer;
+}
+.avatar-box4 img{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 830px;
+top: 1650px;
+cursor: pointer;
+}
+
+
+/* FOOTER ABOUT */
+.footer-about{
+    background:  #070506;
+    position: absolute;
+    top: 2630px;
+    width: 100vw;
+    height: 464px;    
+}
+
+.col-about{
+    width: 25%;
+}
+.logo-part-about h4{
+    font-size: 30px;
+    color: white;
+    bottom: -80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    position: relative;
+    left: 120px;
+}
+.imagelocation-about img{
+    width: 27px;
+    position: absolute;
+    bottom: 280px;
+    left: 110px;
+    cursor: pointer;
+
+}
+.imagelocation-about h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 155px;
+    cursor: pointer;
+}
+.image-inbox-about img{
+    position: absolute;
+    bottom: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-inbox-about h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 215px;
+    cursor: pointer;
+}
+.image-call-about img{
+    position: absolute;
+    bottom: 150px;
+    left: 115px;
+    cursor: pointer;
+}
+.image-call-about h3{
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 164px;
+    top: 285px;
+    cursor: pointer;
+}
+
+.our-menu-about h2{
+    position: absolute;
+    height: 24px;
+    left: 504px;
+    top: 95px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.our-menu-about ul li{
+    margin-left: 504px;
+    position: relative;
+    top: 95px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+}
+.our-menu-about ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* company */
+.our-company-about h2{
+    position: absolute;
+    height: 24px;
+    left: 720px;
+    top: 100px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  
+}
+.our-company-about ul li{
+    margin-left: 720px;
+    position: relative;
+    top: -230px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #E6E6E6;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: .4s;
+    cursor: pointer;
+ 
+}
+.our-company-about ul li:hover{
+    color:  #DF5518;
+    transform: translateX(-12px);
+} 
+
+/* subscribe */
+.newsletter-about h2{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 95px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.newsletter-about h3{
+    position: absolute;
+    height: 24px;
+    left: 950px;
+    top: 135px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #E6E6E6;
+}
+.newsletter-about input{
+    position: absolute;
+    bottom: 260px;
+    left: 950px;
+    border-radius: 8px;
+    padding: 13.5px 13.5px 13.5px 16px;
+}
+
+
+.newsletter-about .btn-subscribe-about{
+    position: absolute;
+    bottom: 210px;
+    width: 175px;
+    height: 38px;
+    border: none;
+    left: 950px;
+    color: white;
+    background-color: #df5518;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+.btn-subscribe-about:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
